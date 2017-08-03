@@ -1,4 +1,3 @@
-
 var config = require('../config')
 if (!process.env.NODE_ENV) process.env.NODE_ENV = JSON.parse(config.dev.env.NODE_ENV)
 var path = require('path')
@@ -74,8 +73,8 @@ module.exports = server.listen(port, function(err) {
     }
     var uri = 'http://localhost:' + port
     console.log('Listening at ' + uri + '\n')
-
-    // when env is testing, don't need open it
+        // opn(uri)
+        // when env is testing, don't need open it
     if (process.env.NODE_ENV !== 'testing') {
         //opn(uri)
     }

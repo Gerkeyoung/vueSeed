@@ -1,15 +1,14 @@
 import App from '../App'
-export default [{
+import VueRouter from 'vue-router'
+const routes = [{
     path: '/',
     component: App,
     children: [{
-        path: '',
-        component: r => require.ensure([], () => r(require('../page/home')), 'home')
-    }, {
-        path: '/item',
-        component: r => require.ensure([], () => r(require('../page/item')), 'item')
-    }, {
-        path: '/score',
-        component: r => require.ensure([], () => r(require('../page/score')), 'score')
+        path: '/home',
+        component: r => require.ensure([], () => r(require('.././appOne/page/home')), 'home')
     }]
 }]
+export default new VueRouter({
+    // mode: 'history',
+    routes
+})

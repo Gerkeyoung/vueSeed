@@ -1,0 +1,4 @@
+{
+    "path": "/item",
+    "component": "r => require.ensure([], () => r(require('../appOne/page/home')), 'home')"
+}
