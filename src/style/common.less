@@ -1,62 +1,85 @@
-body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, i, b, textarea, button, input, select  {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    font-style: normal;
-    text-decoration: none;
-    border: none;
-    color: #313131;
-    box-sizing: border-box;
-    font-weight: lighter;
-    font-family: 'Microsoft YaHei';
-    -webkit-tap-highlight-color:transparent;
-    &:focus {
-        outline: none;
-    }
-}
 
+/**
+* 基础字体大小
+*/
+@font-size-small: 0.24rem;
+@font-size: 0.32rem !important;
+@font-size-big: 0.42rem;
+@font-size-bigger: 0.72rem;
+@font-size-button: 0.24rem;
+@font-size-liter: 0.30rem;
+/**
+* color
+*/
+@base_color:white !important;
+@pagebackground_color: rgba(158, 158, 158, 0.19);
+@header_background:#01579B;
 
-html{
-    height: 100%;
-    width: 100%;
-}
-body{
-    height: 100%;
-    width: 100%;
-    background-size: 100% 100%;
-}
+@font_key_color:#666;
+@font_value_color:gray;
 
-.clear:after{
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.clear{
-    zoom:1;
-}
-
-.back_img{
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.margin{
-    margin: 0 auto;
-}
-
-.left{
+/**
+* margin
+*/
+@margintop_10:0.2rem !important;
+.floatleft{
     float: left;
 }
 
-.right{
+.floatright{
     float:right;
 }
-
-.hide{
-    display: none;
+.left{
+    text-align: left !important;
+}
+.center{
+    text-align:center !important;
+}
+.right{
+    text-align: right !important;
+}
+.pagebaseCss{
+	 font-size:@font-size;
+     background-color:@pagebackground_color;
+}
+.pagebaseContent{
+	 font-size:@font-size;
+     background-color:@base_color;
+}
+.overtexthidden{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/**
+* reset css
+*/
+.vux-header-back{
+    color: @base_color;
+}
+// .vux-header .vux-header-left .left-arrow:before{
+//     top: 10px !important;
+// }
+.weui-tab__panel {
+    padding-bottom: 0 !important;
+}
+.weui-cell_select .weui-cell__bd:after{
+   margin-top: -7px !important;
+   transform: matrix(.71,.71,-.71,.71,0,0) rotate(90deg) !important; 
+}
+// .weui-loading_toast{
+//   .weui-icon_toast.weui-loading{
+//     margin-top: 70%;
+//   }  
+//   .weui-toast{
+//     top:0;
+//     height:100%
+//   }
+// }
+.vux-toast{
+  .weui-toast{
+    width: 2.4rem !important;
+    min-height:1.6rem !important;
+  }
 }
 
-.show{
-    display: block;
-}

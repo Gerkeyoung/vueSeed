@@ -1,0 +1,45 @@
+{
+	"register":{
+		"pagetitle":"用户注册",
+		"rigsterdes":"请补充你的信息,这样在分配任务时,别人可以方便找到你",
+		"email":"电子邮箱*",
+		"emailplace":"请输入邮箱地址",
+		"nameplace":"请输入姓名",
+		"name":"姓名*",
+		"buttondes":"开始使用"
+	},
+	"connecte":{
+		"pagetitle":"绑定微信",
+		"email":"电子邮箱*",
+		"emailplace":"请输入邮箱地址",
+		"passwordplace":"请输入密码",
+		"password":"密码*",
+		"connect":"绑定"
+	},
+	"taskmgmtlist":{
+		"xheader_back":"返回",
+		"pagetitle": "任务列表",
+		"pullcontent":"下拉刷新",
+		"pullcontentdoing":"加载中...",
+		"pullup":"释放刷新",
+        "listTask":["全部项目","项目一", "项目二"],
+        "task":"全部项目",
+        "listdateLine":["完成时间","开始时间"],
+        "dateline":"完成时间",
+        "taskrange":"全部时间段",
+        "listtaskRangeTemp01":[{"key":"全部时间段","value":0},{"key":"今日需完成","value":1},{"key":"本周需完成","value":7},{"key":"10天内完成","value":10}],
+        "listtaskRangeTemp02":[{"key":"全部时间段","value":0},{"key":"今日需开始","value":1},{"key":"本周需开始","value":7},{"key":"10天内开始","value":10}],
+        "listtaskRange":[]
+	},
+	"taskmgmtdetail":{
+		"pagetitle":"任务明细",
+		"taskName":"任务名称",
+		"submitstar":"开始任务",
+		"tasklevel":"优先级",
+		"taskoriginal":"任务来源",
+		"plansta":"计划开始",
+		"planfin":"计划结束",
+		"taskinfodes":"详细说明",
+		"progress":"进度值"
+	}
+}

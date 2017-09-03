@@ -1,0 +1,49 @@
+{
+	"register":{
+		"pagetitle":"用户注册",
+		"rigsterdes":"请补充你的信息,这样在分配任务时,别人可以方便找到你",
+		"email":"电子邮箱*",
+		"emailplace":"请输入邮箱地址",
+		"nameplace":"请输入姓名",
+		"name":"姓名*",
+		"buttondes":"开始使用"
+	},
+	"connecte":{
+		"pagetitle":"绑定微信",
+		"email":"电子邮箱*",
+		"emailplace":"请输入邮箱地址",
+		"passwordplace":"请输入密码",
+		"password":"密码*",
+		"connect":"绑定"
+	},
+	"taskmgmtlist":{
+		"xheader_back":"返回",
+		"pagetitle": "任务列表",
+		"pullcontent":"下拉刷新",
+		"pullcontentdoing":"加载中...",
+		"pullup":"释放刷新",
+		"listTask":[{"key":"all","value":"全部项目"}],
+        "listdateLine":[{"key":"date_finish","value":"完成时间"},{"key":"date_start","value":"开始时间"}],
+        "listtaskRangeTemp01":[{"key":0,"value":"全部时间段"},{"key":1,"value":"今日需完成"},{"key":7,"value":"本周需完成"},{"key":10,"value":"10天内完成"}],
+        "listtaskRangeTemp02":[{"key":2,"value":"全部时间段"},{"key":1,"value":"今日需开始"},{"key":7,"value":"本周需开始"},{"key":10,"value":"10天内开始"}],
+        "today":"今日",
+        "yesterday":"昨日",
+        "tommerrom":"明日",
+        "lastday":"天前",
+        "nexttday":"天后",
+        "unstart":"末开始"
+
+	},
+	"taskmgmtdetail":{
+		"pagetitle":"任务明细",
+		"taskName":"任务名称",
+		"submitstar":"开始任务",
+		"submitfin":"任务完成",
+		"tasklevel":"优先级",
+		"taskoriginal":"任务来源",
+		"plansta":"计划开始",
+		"planfin":"计划结束",
+		"taskinfodes":"详细说明",
+		"progress":"进度值"
+	}
+}

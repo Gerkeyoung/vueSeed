@@ -13,12 +13,5 @@ const localEvent = function(item) {
     }
 }
 
-export const local = new localEvent('lx_notepad');
-export const theme_local = new localEvent('lx_theme');
+export const router_list = new localEvent('router_list');
 
-
-export const getDate = () => { //获取当天日期
-    const date = new Date(),
-        mouth = parseInt(date.getMonth()) + 1;
-    return date.getFullYear() + '-' + mouth + '-' + date.getDate();
-}
